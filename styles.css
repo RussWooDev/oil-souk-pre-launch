@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h3 {
+    color:rgb(90, 90, 90); 
+    z-index: 2;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+
+  hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  /* 
+  
+  Hero image and sign up 
+  
+  */
+
+  #hero {
+    background-image: url(./images/hero-bg-2.jpg); /* Replace with your own background image */
+    background-size: cover;
+    background-attachment: fixed; /* Makes the background image stay in place while the rest of the page scrolls */
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.hero-content {
+  background-color: rgba(251, 193, 193, 0.8); /* Transparent white background color */
+  padding: 30px;
+  text-align: center;
+  width: 50%;
+  color:rgb(90, 90, 90);
+}
+
+.hero-content h1 {
+    font-size: xx-large; 
+}
+
+.hero-content p {
+    color:rgb(90, 90, 90); 
+}
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  input[type="email"],
+  button[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    color: rgb(90, 90, 90);
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  input[type="email"] {
+    font-size: 18px;
+    width: 350px;
+    background-color: #ffffff;
+  }
+  
+  button[type="submit"] {
+    cursor: pointer;
+    color: #ffffff;
+    width: 150px;
+    background-color: green
+  }
+
+/* 
+
+Benefits
+
+
+*/
+
+.benefits {
+    background-image: url(./images/features-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0; /* Adjust the padding as needed */
+    height: 50vh;
+  }
+  
+  .benefit {
+    width: 25%; /* Change the width to adjust the size of the columns */
+    text-align: center;
+  }
+  
+  i {
+    color: #ffffff; /* Replace with your own icon color */
+    font-size: 40px; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  
+  .benefits h3 {
+    color: #ffffff; /* Replace with your own text color */
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  
+  .benefits p {
+    color: #fcfcfc; /* Replace with your own text color */
+    font-size: 16px; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+
+
+/* 
+
+Small-background-break Section
+
+*/
+
+#small-background-break {
+    background-image: url(./images/hero-bg-2.jpg); /* Replace with your own background image */
+    background-size: cover;
+    background-attachment: fixed; /* Makes the background image stay in place while the rest of the page scrolls */
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tag-line-one {
+    color: rgb(90, 90, 90); /* Transparent white background color */
+    background-color: rgba(251, 193, 193, 0.8);
+    padding: 20px;
+    text-align: center;
+    
+  }
+
+
+  /* 
+  
+  Testimonial Section
+  
+  */
+  .testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/features-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40vh;
+    z-index: 1;
+  }
+  
+  .testimonial-card {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .testimonial-card p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-card h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #333;
+  }
+  
+  .testimonial-card span {
+    font-size: 14px;
+    color: gray;
+    display: block;
+  }
+
+  /* 
+  Another sign up section
+  
+  */
+
+  .contact {
+    background-image: url(./images/hero-bg-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;    
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    margin-bottom: 50px;
+  }
+
+  .contact form input[type="email"] {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 50%;
+  }
+  
+  .contact form input[type="submit"] {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+  }
+
+  /* 
+  
+  Footer
+  
+  */
+
+  footer {
+    background-image: url(./images/hero-bg-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;    
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+  }
